@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     <style>
+      img {
+      border-radius: 50%;
+     }
+      body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+ 
+.sidebar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+.block {
+  display: block;
+  width: 100%;
+  border: none;
+  background-color:grey;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 22px;
+}
+.block:hover {
+  background-color: olive;
+  color: white;
+}
+.box{
+display:block;
+width: 100%;
+border:none;
+background-color:grey;
+color:white;
+padding: 14px 28px;
+border-radius: 22px;
+}
+</style>  
+           <!-- Required meta tags -->
+             <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <!-- Bootstrap CSS -->
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+             <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+            <title> Trainer appoint form</title>
+            <link rel="stylesheet" href="D:\project/sidebar.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body> 
+     	</nav><nav class=" container-fluid navbar navbar-expand-md navbar-light bg-light sticky-top  ">
+ <img src="F:\fitness\images\logo1.png" alt="logo" height="95" width="95" class="rounded-circle">
+<h1><b>Personal Fitness Trainer</b></h1>
+<div>
+</div>
+	</nav>
+ <nav class="navbar navbar-expand-md bg-secondary navbar-dark">
+  <!-- Links -->
+  <ul class="navbar-nav ml-auto">
+    <li class="nav-item text-white">
+      <a class="nav-link" href="index.html">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="form.html">Appointment</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="viewtable.html">View Appointment</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="newcontact.html">Contact us</a>
+    </li>
+  </ul>
+</nav>
+ <!-- side bar -->
+    <div class="sidebar">
+  <a class="active" href="index.html">Home</a>
+  <a href="form.html">Appointment</a>
+   <a href="#about">View Appointment</a>
+  <a href="contact.html">Contact us</a>
+ 
+</div> 
+      <div class="content">
+  <div class="container">
+  <div class ="box" >
+            
+  <p>Fitness trainers and instructors lead, instruct, and motivate individuals or groups in exercise activities,Including cardiovascular exercise </p>
+  <p>(exercises for the heart and blood system),strength training,and stretching. They work with people of all ages and skill levels.</p>
+  <h1>Duties</h1>
+  <p>Demonstrate how to carry out various exercises and routines</p>
+  <p>Monitor clients’ progress and adapt programs as needed</p>
+    </div>
+  </div>
+    <br/> 	
+     <div class="container">
+<button class="block"><a href="form.html"><h1 class="display-1"><b>Apply <br/> For Trainer</b></h1></a></button>
+</div>
+</div>
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+
+
+
+    </body>
+
+</html>
+body {font-family: "Lato", sans-serif;}
+
+-------------------------------
+
+table :
+
+ <div class="container">
+        <table class="table" align="center">
+        
+            <tr id="titleRow">
+                <th> Name </th>
+                <th>Address </th>
+                <th> city </th>
+                <th> Phone </th>
+                <th>package</th>
+                <th>trainerpreference</th>
+            </tr>
+            <tbody id="enrolled"></tbody>
+            
+            
+            ------------------------------------------
+            
+            
+
+
+
